@@ -268,30 +268,3 @@ footer {
     color:#444;
   }
 }
-
-
-
-
-.skills{
-  background-color:#ddd;
-  width:100%;
-  height:15px;
-  position:relative;
-  margin:120px;
-}
-.title-bar{
-  position:absolute;
-  top:-50px;
-  margin:5px
-}
-.skills span {
-  float:right;
-  margin-top:-22px;
-  margin-right:5px;
-}
-
-.skillbar{
-  background-color:#ff3333;
-  width:0px;
-  height:15px;
-}
