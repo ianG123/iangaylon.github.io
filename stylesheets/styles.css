@@ -268,3 +268,27 @@ footer {
     color:#444;
   }
 }
+
+
+.progress-bar {
+    background-color: #C5C3C6;
+    height: 2rem;
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress-bar__inner {
+   text-align: center;
+   position: relative;
+   display: block;
+   height: 100%;
+   background-color: #45ADA8;
+   animation: run-progress 1s;
+}
+
+@keyframes run-progress {
+   0% {
+     width: 0;
+   }
+}
